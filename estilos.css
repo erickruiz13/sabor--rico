@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: auto;
+}    
+#container{
+    width: 1144px;
+    height: 255px;
+    margin-right: auto;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+#header{
+    width: 1144px;
+    height: 8px;
+    background-color: #F49819;
+}
+#nav{
+    width: 1144px;
+    height: 120px;
+    padding-top: 1px;
+	}
+#logo{
+    margin-top: -51px;
+    margin-left: 31px;
+}
+#nav ul{
+    list-style-type: none;
+  
+}
+#nav ul li{
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 28px;
+    margin-left: 383px;
+    margin-right: -373px;
+    padding-left: 0px;
+}
+#nav ul li a{
+    text-decoration: none;
+    background-color: #F49819;
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 15px;
+    padding-top: 64px;
+    padding-left: 61px;
+    padding-right: 58px;
+    padding-bottom: 49px;
+    border-radius: 0px;
+}
+
+#nav ul li a:hover{
+    background-color: #945611;
+}
+#article{
+    float: left;
+    width: 1144px;
+    height: 926px;
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 308px;
+}
+#h1{
+    color: #1B1B1B;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+    margin-top: 19px;
+}
+#SALUDO{
+    color: #232323;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+    margin-left: 163px;
+    margin-right: 163px;
+}
+#entradas{
+    width: 350px;
+    height: 567px;
+    margin-left: 22px;
+    margin-top: 29px;
+}
+#img-entradas{
+    background-image: url(../img/thumb_criollos.jpg);
+    width: 350px;
+    height: 293px;
+}
+#titulo-entrada{
+    color: #494949;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 12px;
+}
+#comentario{
+    color: #363636;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    margin-left: 13px;
+    margin-right: 13px;
+    text-align: justify;
+}
+#criollas{
+    width: 350px;
+    height: 567px;
+    margin-left: 396px;
+    margin-top: -567px;
+}
+#img-criollas{
+    width: 350px;
+    height: 293px;
+    background-image: url(../img/thumb_entradas.jpg);
+    background-size: 352px auto;
+}
+#titulo-criollas{
+    color: #373737;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+#pastas{
+    width: 350px;
+    height: 567px;
+    margin-left: 769px;
+    margin-top: -566px;
+}
+#img-pastas{
+    background-image: url(../img/thumb_pastas.jpg);
+    width: 350px;
+    height: 293px;
+    background-size: 351px auto;
+}
+#titulo-pastas{
+    color: #353434;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 9px;
+}
+#footer{
+    float: left;
+    width: 1144px;
+    height: 255px;
+    background-color: #F49819;
+    margin-top: 32px;
+    padding-top: 0px;
+    bottom: -558px;
+}
+#mapa{
+    width: 350px;
+    height: 200px;
+    margin-left: 218px;
+    margin-top: 32px;
+}
+#elementos-sitio{
+    width: 350px;
+    height: 113px;
+    margin-left: 131px;
+    margin-top: -145px;
+    margin-bottom: -12px;
+    text-align: center;
+}
+#datos{
+    width: 350px;
+    height: 40px;
+    margin-left: 726px;
+    margin-top: -171px;
+}
+#direccion{
+    margin-left: 701px;
+    margin-top: 11px;
+}
+#copyright{
+    width: 1144px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 27px;
+    text-align: center;
+    background-color: #5F1000;
+    color: #ffffff;
+    padding-bottom: 43px;
+}
+
+#titulo {
+    width: 100%;
+    background-color: #A8470D;
+    margin-top: -15px;
+    height: 130px;
+	background-image: url("../img/cabecera_nostros.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display:table;
+}
+.subtitulo{
+	color: #FFFFFF;
+	margin: auto;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
